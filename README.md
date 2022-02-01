@@ -39,5 +39,14 @@ $ yarn
 $ yarn dev
 ```
 
+## Create new post
+i wrote small script to make this easy :D
+
+```
+$ python3 new-post.py
+# OR
+$ ./new-post.py
+```
+
 ## Cloning / Forking
 Please review the **[license](./LICENSE.txt)** and remove all of my personal information (blog posts, images, etc.).
