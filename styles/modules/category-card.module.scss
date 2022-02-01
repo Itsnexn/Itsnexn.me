@@ -1,0 +1,33 @@
+
+.container {
+    padding: 0 2vw;
+}
+
+.title {
+    color: var(--red);
+}
+
+.link {
+    color: var(--fg-bright);
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: normal;
+
+    &::after {
+        color: var(--red);
+        content: "]";
+        font-weight: bold;
+        padding-left: 3px;
+    }
+    &::before {
+        color: var(--red);
+        content: "[";
+        font-weight: bold;
+        padding-right: 3px;
+    }
+    &:hover {
+        color: var(--red);
+        font-weight: bold;
+        text-decoration: underline;
+    }
+}
