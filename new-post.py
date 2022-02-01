@@ -68,7 +68,6 @@ title: {title}
 author: {author}
 description: {description}
 date: {date}
-category: {category}
 tags: {tags}
 ---
 """)
