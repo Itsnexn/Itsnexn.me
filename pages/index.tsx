@@ -61,7 +61,7 @@ export function getRecentPosts(posts) {
 }
 
 export async function getStaticProps() {
-    const posts = allPosts()
+    const posts = allPosts();
 
     return {
         props: {

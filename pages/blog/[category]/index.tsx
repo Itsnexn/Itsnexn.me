@@ -5,7 +5,6 @@ import PostCard from "../../../components/post-card";
 import { useRouter } from "next/router";
 import { getFilesFromCategory } from "../../../lib/helper";
 
-
 export default function Categories({ posts }) {
     const router = useRouter();
     const category = router.query.category;
@@ -30,34 +29,34 @@ export default function Categories({ posts }) {
                 <meta name="og:type" content="website" />
             </Head>
             <div>
-                <h2 className="main-title">{ category }</h2>
-                {
-                posts.map((post, index) => {
-                    return <PostCard post={post} category={category} key={index} />;
-                })
-                }
+                <h2 className="main-title">{category}</h2>
+                {posts.map((post, index) => {
+                    return (
+                        <PostCard post={post} category={category} key={index} />
+                    );
+                })}
             </div>
         </div>
     );
 }
 
 export async function getStaticPaths() {
-  const files = fs.readdirSync(path.join('_contents'))
+    const files = fs.readdirSync(path.join("_contents"));
 
-  const paths = files.map((filename) => ({
-    params: {
-      category: filename
-    },
-  }))
+    const paths = files.map((filename) => ({
+        params: {
+            category: filename,
+        },
+    }));
 
-  return {
-    paths,
-    fallback: false,
-  }
+    return {
+        paths,
+        fallback: false,
+    };
 }
 
 export async function getStaticProps({ params: { category } }) {
-    const posts = getFilesFromCategory(category)
+    const posts = getFilesFromCategory(category);
     return {
         props: {
             posts: posts,
@@ -65,4 +64,3 @@ export async function getStaticProps({ params: { category } }) {
         },
     };
 }
-

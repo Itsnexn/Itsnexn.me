@@ -1,6 +1,6 @@
 import Head from "next/head";
 import PostCard from "../../components/post-card";
-import { allPosts } from "../../lib/helper"
+import { allPosts } from "../../lib/helper";
 
 export default function Blog({ posts }) {
     return (
@@ -24,9 +24,14 @@ export default function Blog({ posts }) {
             </Head>
             <div>
                 <h2 className="main-title">Recent Posts</h2>
-                {
-                getRecentPosts(posts).map((post, index) => {
-                    return <PostCard post={post} category={post.category} key={index} />;
+                {getRecentPosts(posts).map((post, index) => {
+                    return (
+                        <PostCard
+                            post={post}
+                            category={post.category}
+                            key={index}
+                        />
+                    );
                 })}
             </div>
         </div>
@@ -35,12 +40,15 @@ export default function Blog({ posts }) {
 
 export function getRecentPosts(posts) {
     return posts.sort((a, b) => {
-        return new Date(b.frontmatter.date).valueOf() - new Date(a.frontmatter.date).valueOf();
+        return (
+            new Date(b.frontmatter.date).valueOf() -
+            new Date(a.frontmatter.date).valueOf()
+        );
     });
 }
 
 export async function getStaticProps() {
-    const posts = allPosts()
+    const posts = allPosts();
 
     return {
         props: {

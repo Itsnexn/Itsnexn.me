@@ -1,13 +1,13 @@
-import Head from "next/head"
+import Head from "next/head";
 import fs from "fs";
 import path from "path";
 import CategoryCard from "../components/category-card";
-import {allCategories} from "../lib/helper"
+import { allCategories } from "../lib/helper";
 
 export default function Categories({ categories }) {
     return (
         <div className="container">
-        <Head>
+            <Head>
                 <title>0xNexn Blog - Categories | itsnexn.me</title>
                 <meta
                     name="description"
@@ -23,23 +23,19 @@ export default function Categories({ categories }) {
                     content="Information security,Penetration Testing,Bug bounty,programming,linux,archlinux"
                 />
                 <meta name="og:type" content="website" />
-        </Head>
-        <div>
-            <h2 className="main-title">Categories</h2>
-            {
-                categories.map((category, index) => {
-                    return (
-                        <CategoryCard category={category} key={index} />
-                )})
-            }
+            </Head>
+            <div>
+                <h2 className="main-title">Categories</h2>
+                {categories.map((category, index) => {
+                    return <CategoryCard category={category} key={index} />;
+                })}
+            </div>
         </div>
-        </div>
-    )
+    );
 }
 
-
 export async function getStaticProps() {
-    const categories = allCategories()
+    const categories = allCategories();
     return {
         props: {
             categories: categories,

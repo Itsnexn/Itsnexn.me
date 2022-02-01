@@ -45,7 +45,7 @@ export default function Search({ posts }) {
                 <meta name="og:type" content="website" />
             </Head>
             <div>
-                <div className={ SearchStyles.main }>
+                <div className={SearchStyles.main}>
                     <input
                         type="search"
                         placeholder="Search"
@@ -54,7 +54,13 @@ export default function Search({ posts }) {
                     />
                 </div>
                 {SearchResults.slice(0, 10).map((post, index) => {
-                    return <PostCard post={post} category={post.category} key={index} />;
+                    return (
+                        <PostCard
+                            post={post}
+                            category={post.category}
+                            key={index}
+                        />
+                    );
                 })}
             </div>
         </div>

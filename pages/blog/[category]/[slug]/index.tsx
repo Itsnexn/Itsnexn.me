@@ -7,7 +7,7 @@ import PostStyles from "../../../../styles/modules/postpage.module.scss";
 import hljs from "highlight.js";
 import { useRouter } from "next/router";
 import Link from "next/link";
-import { allPosts } from "../../../../lib/helper"
+import { allPosts } from "../../../../lib/helper";
 
 export default function PostPage({ frontmatter, slug, content }) {
     const router = useRouter();
