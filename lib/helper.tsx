@@ -3,7 +3,7 @@ import path from "path";
 import matter from "gray-matter";
 
 
-const contentsDir = path.join(process.cwd(), "_contents");
+const contentsDir = path.join(process.cwd(), process.env.CONTENTS_DIR);
 
 export function allCategories()  {
     let categories = [];

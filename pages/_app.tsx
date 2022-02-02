@@ -5,7 +5,7 @@ import Head from "next/head";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 import QuoteData from "../public/static/quotes.json";
-import React from "react";
+import * as Swetrix from 'swetrix'
 
 declare global {
     namespace JSX {
@@ -20,6 +20,9 @@ declare global {
 
 const quote = QuoteData[Math.floor(Math.random() * QuoteData.length)];
 export default function MyApp({ Component, pageProps }) {
+    Swetrix.init(process.env.SWETRIX_PJID)
+    Swetrix.trackViews()
+
     const { theme } = useTheme();
     return (
         <ThemeProvider
