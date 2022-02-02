@@ -44,11 +44,10 @@ export function allPosts() {
 
 export function getPost(category) {
     let params = [];
-
     fs.readdirSync(contentsDir).map((category) => {
         // check if the category is a directory
         if (fs.lstatSync(path.join(contentsDir, category)).isDirectory()) {
-            const files = fs
+            fs
                 .readdirSync(path.join(contentsDir, category))
                 .map((file) => {
                     if (file.endsWith(".md")) {
@@ -72,7 +71,7 @@ export function getPost(category) {
 export function getFilesFromCategory(category) {
     let posts = [];
 
-    fs.readdirSync(contentsDir).map((file) => {
+    fs.readdirSync(path.join(contentsDir, category)).map((file) => {
         if (file.endsWith(".md")) {
             const fullPath = path.join(contentsDir, file);
             const fileContents = fs.readFileSync(fullPath, "utf8");
