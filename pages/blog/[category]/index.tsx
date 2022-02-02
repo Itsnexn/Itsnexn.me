@@ -1,9 +1,7 @@
 import Head from "next/head";
-import fs from "fs";
-import path from "path";
 import PostCard from "../../../components/post-card";
 import { useRouter } from "next/router";
-import { getFilesFromCategory } from "../../../lib/helper";
+import { getFilesFromCategory, allCategories } from "../../../lib/helper";
 
 export default function Categories({ posts }) {
     const router = useRouter();
@@ -41,14 +39,13 @@ export default function Categories({ posts }) {
 }
 
 export async function getStaticPaths() {
-    const files = fs.readdirSync(path.join("_contents"));
-
-    const paths = files.map((filename) => ({
-        params: {
-            category: filename,
-        },
-    }));
-
+    const paths = allCategories().map( category => {
+        return {
+            params: {
+                category: category.name
+            }
+        }
+    })
     return {
         paths,
         fallback: false,
