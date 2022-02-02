@@ -97,3 +97,12 @@
         }
     }
 }
+
+@media screen and (max-width: 450px) {
+    .info {
+        padding: 0.3rem 0.7rem;
+    }
+    .postbody {
+        padding: 3vw;
+    }
+}

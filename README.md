@@ -19,6 +19,7 @@
 **Deployment:** [Netlify](https://www.netlify.com/)
 **Contents:** [Markdown](https://www.markdownguide.org/)
 **Styling:** [Sass](https://sass-lang.com/)
+**Font:** [Iosevka](https://github.com/be5invis/Iosevka)
 
 ## Overview
 

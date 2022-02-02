@@ -47,10 +47,6 @@ export default function MyApp({ Component, pageProps }) {
                     href="/favicon-16x16.png"
                 />
                 <meta name="og:image" content="/static/images/ogimage.jpg" />
-                <link
-                    rel="stylesheet"
-                    href="https://cdn.jsdelivr.net/npm/@typopro/web-iosevka@3.7.5/TypoPRO-Iosevka.css"
-                />
             </Head>
 
             <center>

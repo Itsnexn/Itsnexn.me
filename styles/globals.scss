@@ -1,4 +1,8 @@
 @import "./hljs.scss";
+@font-face {
+    font-family: iosevka;
+    src: url("../public/static/iosevka-medium.ttc");
+}
 
 :root {
     --bg: #1a1b26;
@@ -58,7 +62,7 @@ body {
     font-size: 20px;
     background-color: var(--bg);
     color: var(--fg);
-    font-family: "Iosevka", sans-serif;
+    font-family: Iosevka, sans-serif;
 
     h1 {
         font-size: 1.4rem;
@@ -215,5 +219,10 @@ main {
             font-weight: 400;
             -webkit-padding-start: 2vw;
         }
+    }
+
+    .container {
+        padding: 3vw;
+        margin: 3vh 0;
     }
 }
