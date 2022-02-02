@@ -90,7 +90,7 @@ export default function PostPage({ frontmatter, slug, content }) {
                     </div>
                     <div className={PostStyles.other}>
                         <a
-                            href={`https://github.com/itsnexn/itsnexn.me/edit/main/_contents/${category}/${slug}.md`}
+                            href={`https://github.com/itsnexn/itsnexn.me/edit/master/_contents/${category}/${slug}.md`}
                         >
                             Edit on Github
                         </a>
