@@ -1,8 +1,4 @@
 @import "./hljs.scss";
-@font-face {
-    font-family: "Iosevka";
-    src: url("../public/static/iosevka-medium.ttc");
-}
 
 :root {
     --bg: #1a1b26;
@@ -62,7 +58,7 @@ body {
     font-size: 20px;
     background-color: var(--bg);
     color: var(--fg);
-    font-family: Iosevka, sans-serif;
+    font-family: TypoPRO Iosevka Term, sans-serif;
 
     h1 {
         font-size: 1.4rem;
