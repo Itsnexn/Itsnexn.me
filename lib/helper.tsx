@@ -1,6 +1,7 @@
 import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
+import CategoryCard from "../components/category-card";
 
 
 const contentsDir = path.join(process.cwd(), process.env.CONTENTS_DIR);
@@ -73,7 +74,7 @@ export function getFilesFromCategory(category) {
 
     fs.readdirSync(path.join(contentsDir, category)).map((file) => {
         if (file.endsWith(".md")) {
-            const fullPath = path.join(contentsDir, file);
+            const fullPath = path.join(contentsDir, category, file);
             const fileContents = fs.readFileSync(fullPath, "utf8");
             const { data: frontmatter } = matter(fileContents);
             posts.push({
