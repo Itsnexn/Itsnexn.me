@@ -5,7 +5,6 @@ import Head from "next/head";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 import QuoteData from "../public/static/quotes.json";
-import * as Swetrix from 'swetrix'
 
 declare global {
     namespace JSX {
@@ -20,9 +19,6 @@ declare global {
 
 const quote = QuoteData[Math.floor(Math.random() * QuoteData.length)];
 export default function MyApp({ Component, pageProps }) {
-    Swetrix.init(process.env.SWETRIX_PJID)
-    Swetrix.trackViews()
-
     const { theme } = useTheme();
     return (
         <ThemeProvider
@@ -49,7 +45,10 @@ export default function MyApp({ Component, pageProps }) {
                     sizes="16x16"
                     href="/favicon-16x16.png"
                 />
-                <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@typopro/web-iosevka@3.7.5/TypoPRO-Iosevka.css" />
+                <link
+                    rel="stylesheet"
+                    href="https://cdn.jsdelivr.net/npm/@typopro/web-iosevka@3.7.5/TypoPRO-Iosevka.css"
+                />
                 <meta name="og:image" content="/static/images/ogimage.jpg" />
             </Head>
 
@@ -73,6 +72,14 @@ export default function MyApp({ Component, pageProps }) {
                     <Footer />
                 </div>
             </center>
+            <script
+                data-host="https://microanalytics.io"
+                data-dnt="false"
+                src="https://microanalytics.io/js/script.js"
+                id="ZwSg9rf6GA"
+                async
+                defer
+            ></script>
         </ThemeProvider>
     );
 }
