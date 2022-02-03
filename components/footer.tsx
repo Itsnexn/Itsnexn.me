@@ -4,9 +4,10 @@ import Link from "next/link";
 
 export default function footer() {
   const social_media = [
-    { name: "Github", url: "https://github.com/itsnexn" },
+    { name: "Twitter", url: "https://twitter.com/itsnexn" },
     { name: "Linkedin", url: "https://linkedin.com/in/itsnexn" },
     { name: "reddit", url: "https://www.reddit.com/user/0xNexn" },
+    { name: "Github", url: "https://github.com/itsnexn" },
     { name: "CTFTime", url: "https://ctftime.org/user/105366" }
   ];
   return (
