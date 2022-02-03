@@ -26,14 +26,13 @@ export default function Home({ posts }) {
             <h4>Hey! im Sina Jafar beglu</h4>
             <p>
                 I am a security researcher and CTF player. I like to develop
-                useful stuff in my freetime.{"\n"}I usualy like to play with my
-                GNU/Linux configurations. check out my 
+                useful stuff in my freetime.{"\n"}
+                I usualy like to play with my GNU/Linux configurations. check out my{" "}
                 <a target="_blank" rel="noreferrer"
                     href="https://github.com/itsnexn/dotfiles"
                 >dotfiles</a> :){"\n"}
-                My favorite linux distros are Arch and favorite programming
-                languages is C.{"\n"}I have a fair expreience in C, Python, Lua,
-                TypeScript/Javascript and x86_64 assembly.
+                My favorite linux distros are Arch and gentoo. I love C (programming language).{"\n"}
+                I have a fair expreience in C, Python, Lua, TypeScript/Javascript and x86_64 assembly.
             </p>
             <h2 className="main-title" style={{ marginTop: "2vh" }}>
                 Recent Posts
