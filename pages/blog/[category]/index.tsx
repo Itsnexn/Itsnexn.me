@@ -10,7 +10,7 @@ export default function Categories({ posts }) {
     return (
         <div className="container">
             <Head>
-                <title>{category} - Categories | itsnexn.me</title>
+                <title>{category} | itsnexn.me</title>
                 <meta
                     name="description"
                     content="0xNexn Blog - Weekly Posts about InfoSec, Penetration testing and BugBounty hunting"

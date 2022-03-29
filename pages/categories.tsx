@@ -1,6 +1,4 @@
 import Head from "next/head";
-import fs from "fs";
-import path from "path";
 import CategoryCard from "../components/category-card";
 import { allCategories } from "../lib/helper";
 
@@ -8,7 +6,7 @@ export default function Categories({ categories }) {
     return (
         <div className="container">
             <Head>
-                <title>0xNexn Blog - Categories | itsnexn.me</title>
+                <title>Categories | itsnexn.me</title>
                 <meta
                     name="description"
                     content="0xNexn Blog - Weekly Posts about InfoSec, Penetration testing and BugBounty hunting"

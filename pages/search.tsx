@@ -28,7 +28,7 @@ export default function Search({ posts }) {
     return (
         <div className="container">
             <Head>
-                <title>0xNexn Blog - Search Page | itsnexn.me</title>
+                <title>Search | itsnexn.me</title>
                 <meta
                     name="description"
                     content="0xNexn Blog - Weekly Posts about InfoSec, Penetration testing and BugBounty hunting"

@@ -1,12 +1,25 @@
 import Head from "next/head";
+import Link from "next/link";
 import PostCard from "../components/post-card";
 import { allPosts } from "../lib/helper";
+
+interface Post {
+    slug: string;
+    frontmatter: {
+        title: string;
+        date: string;
+        tags: string[];
+        description: string;
+    };
+    content: string;
+    category: string;
+}
 
 export default function Home({ posts }) {
     return (
         <div className="container">
             <Head>
-                <title>0xnexn website - home page | itsnexn.me</title>
+                <title>Home page | itsnexn.me</title>
                 <meta
                     name="description"
                     content="0xNexn Website - Security researcher and CTF player. Intrested in GNU/Linux."
@@ -32,7 +45,8 @@ export default function Home({ posts }) {
                     href="https://github.com/itsnexn/dotfiles"
                 >dotfiles</a> :){"\n"}
                 My favorite linux distros are Arch and gentoo. I love C (programming language).{"\n"}
-                I have a fair expreience in C, Python, Lua, TypeScript/Javascript and x86_64 assembly.
+                I have a fair expreience in C, Python, Lua, TypeScript/Javascript and x86_64 assembly.{"\n"}
+                [ <Link href="/resume">Resume</Link> ]
             </p>
             <h2 className="main-title" style={{ marginTop: "2vh" }}>
                 Recent Posts
@@ -52,7 +66,7 @@ export default function Home({ posts }) {
     );
 }
 
-export function getRecentPosts(posts) {
+export function getRecentPosts( posts: Post[] ) {
     return posts.sort((a, b) => {
         return (
             new Date(b.frontmatter.date).valueOf() -

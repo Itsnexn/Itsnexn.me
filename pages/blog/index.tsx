@@ -6,7 +6,7 @@ export default function Blog({ posts }) {
     return (
         <div className="container">
             <Head>
-                <title>0xNexn Blog - Blog Page | itsnexn.me</title>
+                <title>Blog | itsnexn.me</title>
                 <meta
                     name="description"
                     content="0xNexn Blog - Weekly Posts about InfoSec, Penetration testing and BugBounty hunting"

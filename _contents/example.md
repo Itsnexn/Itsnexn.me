@@ -1,5 +1,5 @@
 ---
-title: Your title 
+title: Your title
 # This description will be used in meta description and og:description
 description: your description
 

@@ -1,0 +1,46 @@
+[============================<  Sina Jafar beglu  >============================]
+                       Web Security researcher/Programmer
+
+[Linkedin]: linkedin.com/in/itsnexn     [Github] : github.com/itsnexn
+[Blog]    : itsnexn.me                  [Twitter]: twitter.com/itsnexn
+
+
+           -=[ Languages ]=-                        -=[ Hobbies ]=-
+- Persian: Native                             I love creating Open source
+- English: Proficient                         tools and libraries to make
+- Turkish: rudimentary                        things easier for everyone.
+
+          -=[ Programming ]=-                      -=[ Non Profit ]=-
+- Assembly                                I  write about my  journey in  soft-
+- Python                                  ware  development  and cyber security
+- Lua                                     in my blog to share my knowledge with
+- Javascript/Typescript                   others.
+
+                                -=[ SKILLS ]=-
+
+Networking: Basic                        TCP/IP, Protocols, Addressing, etc.
+
+GNU/Linux: Good                          Setup LFS, GNU Utils, Configuring appl-
+                                         -ications, firewalls, socket, etc.
+
+Python: Good                             Data types, loops, Classes, Functions,
+                                         OOP, etc.
+
+Reverse Engineering : Medium             Binary structure, Memory structure,
+                                         Assemble and disassmble, etc.
+
+GIT: Medium                              Able to perform diffrent actions with
+                                         git binary.
+
+                               -=[ EXPERIENCE ]=-
+
+2017 -- 2018              [Python Full Stack Developer] @ Freelancer.
+                          Python / Flask / JavaScript
+
+2018 -- late 2020         [Capture the flag competitions] @ THM and HTB.
+                          GNU/Linux / Cryptography / Reverse Engineering / C
+
+2021 -- Now               [Bug Bounty Hunter] @ HackerOne and Ravro.
+
+
+[==< EOF >=====================================================================]

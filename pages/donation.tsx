@@ -4,7 +4,7 @@ export default function Donation() {
     return (
         <>
             <Head>
-                <title>0xnexn website - Donation page | itsnexn.me</title>
+                <title>Donation | itsnexn.me</title>
                 <meta
                     name="description"
                     content="0xNexn Website - Security researcher and CTF player. Intrested in GNU/Linux."

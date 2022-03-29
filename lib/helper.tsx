@@ -4,7 +4,7 @@ import matter from "gray-matter";
 import CategoryCard from "../components/category-card";
 
 
-const contentsDir = path.join(process.cwd(), process.env.CONTENTS_DIR);
+export const contentsDir = path.join(process.cwd(), process.env.CONTENTS_DIR);
 
 export function allCategories()  {
     let categories = [];
