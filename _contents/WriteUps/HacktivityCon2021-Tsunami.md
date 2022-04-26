@@ -1,13 +1,15 @@
 ---
 title: HacktivityCon2021 Tsunami writeup
 author: 0xNexn
-description: Tsunami writeup from HacktivityCon2021
+description: Solving Tsunami writeup from HacktivityCon2021 using Sonic Visualiser + Pictures
 date: 1649522455
-tags: ['ctf', 'HacktivityCon', 'spectrogram', 'audio']
+tags:
+    - ctf
+    - HacktivityCon
+    - Spectrogram
+    - Audio
 ---
 
-# Tsunami
-### Challenge
 **Tag:** _Easy_
 
 **Description:**
@@ -29,18 +31,21 @@ I had some audio challenges before its mostly its about "Spectrograms"...
 Im using **Sonic visualiser** but you can use anything that you comfortable with :)
 
 **Step 0x0:**
+
 hit Ctrl + O or goto _File => Open_ to open up our challenge file!
-![step0x0](https://raw.githubusercontent.com/Itsnexn/WriteUps/main/HacktivityCon2021/WarmUp/Tsunami/step0x0.png)
+![Openning the file in Sonic Visualizer](https://i.imgur.com/Z7MdpK7.png)
 
 **Step 0x1:**
-![step0x1](https://raw.githubusercontent.com/Itsnexn/WriteUps/main/HacktivityCon2021/WarmUp/Tsunami/step0x1.png)
+![Sonic visualizer workspace](https://i.imgur.com/IcqKSmU.png)
 
 **Step 0x2:**
+
 right click on the screen and goto _Layer => Add spectrogram_...
-![step0x2](https://raw.githubusercontent.com/Itsnexn/WriteUps/main/HacktivityCon2021/WarmUp/Tsunami/step0x2.png)
+![Adding spectorgrams](https://i.imgur.com/JVEa6Yt.png)
 
 **Step 0x3:**
+
 And boom we got our flag!
-![step0x3](https://raw.githubusercontent.com/Itsnexn/WriteUps/main/HacktivityCon2021/WarmUp/Tsunami/step0x3.png)
+![flag](https://i.imgur.com/keFLSQg.png)
 
 > Itsnexn for  **Abyssal Cruelty**
