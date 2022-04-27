@@ -8,7 +8,7 @@
         <img src="https://img.shields.io/github/stars/itsnexn/itsnexn.me?style=flat-square"/>
         <img src="https://img.shields.io/github/languages/count/itsnexn/itsnexn.me?style=flat-square"/>
         <img src="https://img.shields.io/github/license/itsnexn/itsnexn.me?style=flat-square" />
-        <img src="https://img.shields.io/netlify/52bb8c6d-3f75-4a08-b0a5-5fba5b82261e?style=flat-square" />
+        <img src="https://api.netlify.com/api/v1/badges/52bb8c6d-3f75-4a08-b0a5-5fba5b82261e/deploy-status" />
     </div>
 <p><strong><a href="https://itsnexn.me">Itsnexn.me</a></strong> Powered by <strong>Next.js, TypeScript, Markdown</strong> and <strong>VIM</strong></p>
 </div>
