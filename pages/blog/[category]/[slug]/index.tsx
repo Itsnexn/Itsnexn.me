@@ -23,7 +23,6 @@ export default function PostPage({ frontmatter, slug, content }) {
         pedantic: false,
         gfm: true,
         breaks: false,
-        sanitize: false,
         smartLists: true,
         smartypants: false,
         xhtml: false,
@@ -32,7 +31,7 @@ export default function PostPage({ frontmatter, slug, content }) {
     return (
         <>
             <Head>
-                <title>{frontmatter.title}</title>
+                <title>{frontmatter.title} | 0xnexn Blog</title>
                 <meta name="og:title" content={frontmatter.title} />
                 <meta name="og:type" content="article" />
                 {frontmatter.tags ? (
@@ -64,7 +63,7 @@ export default function PostPage({ frontmatter, slug, content }) {
                     <div
                         className={PostStyles.postcontent}
                         dangerouslySetInnerHTML={{
-                            __html: marked.parse(content),
+                            __html: String(marked.parse(content)).replace(/^\n$/, ""),
                         }}
                     />
                 </article>

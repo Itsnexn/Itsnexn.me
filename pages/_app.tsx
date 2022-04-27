@@ -6,17 +6,6 @@ import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 import QuoteData from "../public/static/quotes.json";
 
-declare global {
-    namespace JSX {
-        interface IntrinsicElements {
-            center: React.DetailedHTMLProps<
-                React.HTMLAttributes<HTMLElement>,
-                HTMLElement
-            >;
-        }
-    }
-}
-
 const quote = QuoteData[Math.floor(Math.random() * QuoteData.length)];
 export default function MyApp({ Component, pageProps }) {
     const { theme } = useTheme();
@@ -52,7 +41,7 @@ export default function MyApp({ Component, pageProps }) {
                 <meta name="og:image" content="/static/images/ogimage.jpg" />
             </Head>
 
-            <center>
+            <div>
                 <div className="main-body">
                     <img
                         className="logo"
@@ -71,7 +60,7 @@ export default function MyApp({ Component, pageProps }) {
 
                     <Footer />
                 </div>
-            </center>
+            </div>
             <script
                 data-host="https://microanalytics.io"
                 data-dnt="false"
