@@ -13,6 +13,9 @@ tags: [
 ---
 information is the key to everything. and we can't just "use our head" to remember everything that we know this is where note-taking or building a second brain comes in. the key to good note-taking is being able to collect as much as possible and have it accessible. but the problem is if you couldn't keep them organized this can lead to a flood of information.
 
+> ![Obsidian graph](https://i.imgur.com/2ZUd2Yb.png)
+> massive graph from [@myownslave](#) over 3,639 notes
+
 I've spent a lot of time thinking about how to optimize my notes and I tried so many different ways of taking notes. here is some places to start if you'd like to:
 
 - [How to take smart notes](https://takesmartnotes.com/)
