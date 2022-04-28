@@ -1,7 +1,7 @@
 ---
 title: How I use obsidian as my second brain
 author: 0xNexn
-description: "Like many, I have struggled with my note-taking and I couldn't find a good system to organize them. so I started to try different popular workflows and I stumbled upon the P.A.R.A method. in this post i'll show you my workflow and we will setup a second brain using obsidian together."
+description: "Like many, I have struggled with my note-taking and I couldn't find a good system to organize them. so I created my own method. in this post i'll show you my workflow and we will setup a second brain using obsidian together."
 date: 1651158642
 tags: [
     "Note Taking",
@@ -11,8 +11,6 @@ tags: [
     "PKM"
 ]
 ---
-link: [[Blog Posts MOC]]
-
 information is the key to everything. and we can't just "use our head" to remember everything that we know this is where note-taking or building a second brain comes in. the key to good note-taking is being able to collect as much as possible and have it accessible. but the problem is if you couldn't keep them organized this can lead to a flood of information.
 
 > ![Obsidian graph](https://i.imgur.com/2ZUd2Yb.png)
