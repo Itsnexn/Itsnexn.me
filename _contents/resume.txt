@@ -1,9 +1,8 @@
-[============================<  Sina Jafar beglu  >============================]
-                       Web Security researcher/Programmer
+[=================================<  Nexn  >===================================]
+                     Web Security researcher / Programmer
 
-[Linkedin]: linkedin.com/in/itsnexn     [Github] : github.com/itsnexn
-[Blog]    : itsnexn.me                  [Twitter]: twitter.com/itsnexn
-
+[Github] : github.com/itsnexn           [Twitter]: twitter.com/itsnexn
+[Blog]   : itsnexn.me
 
            -=[ Languages ]=-                        -=[ Hobbies ]=-
 - Persian: Native                             I love creating Open source
@@ -15,22 +14,27 @@
 - Python                                  ware  development  and cyber security
 - Lua                                     in my blog to share my knowledge with
 - Javascript/Typescript                   others.
+- C/C++
 
                                 -=[ SKILLS ]=-
 
-Networking: Basic                        TCP/IP, Protocols, Addressing, etc.
+Networking: Good                         TCP/IP, Protocols, Addressing, DNS, etc.
 
-GNU/Linux: Good                          Setup LFS, GNU Utils, Configuring appl-
-                                         -ications, firewalls, socket, etc.
+GNU/Linux: Good                          Linux System Programmign, GNU Utils,
+                                         Configuring applications, firewalls,
+                                         socket, etc.
 
-Python: Good                             Data types, loops, Classes, Functions,
-                                         OOP, etc.
-
-Reverse Engineering : Medium             Binary structure, Memory structure,
+Reverse Engineering : Basic              Binary structure, Memory structure,
                                          Assemble and disassmble, etc.
 
 GIT: Medium                              Able to perform diffrent actions with
                                          git binary.
+
+System Administration: Good              Able to configure and manage servers,
+                                          networks, deploy applications, etc.
+                                         Able to automate tasks using python and
+                                          tools like ansible.
+
 
                                -=[ EXPERIENCE ]=-
 
@@ -40,7 +44,10 @@ GIT: Medium                              Able to perform diffrent actions with
 2018 -- late 2020         [Capture the flag competitions] @ THM and HTB.
                           GNU/Linux / Cryptography / Reverse Engineering / C
 
-2021 -- Now               [Bug Bounty Hunter] @ HackerOne and Ravro.
+2021 -- 2020              [Bug Bounty Hunter] @ HackerOne and Ravro.
 
+2022 -- Now               [System Administrator / Cloud Security] @ Private Co.
+                          GNU/Linux / Automation / SysAdmin / Networking
+                                        Cloud Security Researcher
 
 [==< EOF >=====================================================================]

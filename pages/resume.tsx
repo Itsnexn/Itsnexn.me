@@ -2,8 +2,9 @@ import Head from "next/head";
 import fs from "fs";
 import path from "path";
 import { contentsDir } from "../lib/helper";
+import Style from "../styles/modules/resume.module.scss";
 
-export default function Donation({ resume }) {
+export default function Resume({ resume }) {
     return (
         <>
             <Head>
@@ -23,7 +24,7 @@ export default function Donation({ resume }) {
                 />
                 <meta name="og:type" content="website" />
             </Head>
-            <div className="container">
+            <div className={Style.resume}>
                 <code>
                     <pre>{resume}</pre>
                 </code>

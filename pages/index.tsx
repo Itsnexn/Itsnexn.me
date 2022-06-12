@@ -36,16 +36,16 @@ export default function Home({ posts }) {
                 <meta name="og:type" content="website" />
             </Head>
             <h2 className="main-title">Home</h2>
-            <h4>Hey! im Sina Jafar beglu</h4>
+            <h4>Hey! im Nexn</h4>
             <p>
-                I am a security researcher and CTF player. I like to develop
+                I am a <b>Security researcher</b> and <b>Programmer</b>. I like to develop
                 useful stuff in my freetime.{"\n"}
                 I usualy like to play with my GNU/Linux configurations. check out my{" "}
                 <a target="_blank" rel="noreferrer"
                     href="https://github.com/itsnexn/dotfiles"
                 >dotfiles</a> :){"\n"}
-                My favorite linux distros are Arch and gentoo. I love C (programming language).{"\n"}
-                I have a fair expreience in C, Python, Lua, TypeScript/Javascript and x86_64 assembly.{"\n"}
+                I also big fan of reading books and playing video games.{"\n"}
+                I love C , Python, x86_64 assembly.{"\n\n"}
                 [ <Link href="/resume">Resume</Link> ]
             </p>
             <h2 className="main-title" style={{ marginTop: "2vh" }}>
