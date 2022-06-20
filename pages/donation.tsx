@@ -27,7 +27,7 @@ export default function Donation() {
                     appreciated!{"\n\n"}
                     you can donate me via:{"\n"}
                     <span style={{ color: "var(--red)" }}>BTC: </span>
-                    bc1qa4eyh4g4ree3s3uexjp9uk3rxxmugpzpefrtkz{"\n"}
+                    12xh4Wg46wLFnAayUphrdRVMJGCmMRXMKt{"\n"}
                     <span style={{ color: "var(--red)" }}>ETH: </span>
                     0x640a9B1AF6738FBE27cf72ADcffa2233a685312c{"\n"}
                 </p>
